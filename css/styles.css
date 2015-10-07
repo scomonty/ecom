@@ -1,0 +1,85 @@
+
+body {
+	font-family: 'Bangers', cursive;
+	background-color: #000;
+	letter-spacing: .5px;
+	color: #F5F5F5;
+}
+.test {
+	border: 1px solid black;
+}
+
+.navbar {
+	height: 80px;
+	background-color: #9932CC;
+	margin-bottom:0;
+}
+
+.foot{
+	background-color: #9932CC;
+	border-top: 1px solid black;
+	text-align: center;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #F5F5F5;
+	margin-top: -12px;
+	font-size: 25px;
+	padding-bottom: 0;
+}
+
+.navbar>.container-fluid .navbar-brand {
+	color: #F5F5F5;
+	font-size: 40px;
+	padding-left: 8%;
+	position: absolute;
+   	bottom: -8px;
+   	padding-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: black;
+}
+.navbar-nav {
+	float: right;
+	padding-right: 8%;
+	margin-right:-15px;
+}
+.image1 {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+	z-index: 1050;
+	margin-top: -60px;
+	opacity: .9;
+}
+.bottle_image {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 9px;
+}
+
+.box {
+	background-image: url("../image/carlin-gill-valley3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+p {
+	color: #F5F5F5;
+	font-size: 16px;
+}
+
+h1 {
+	font-size:72px;
+}
+
+.content {
+	margin-top:50px;
+	opacity: .8;
+}
+

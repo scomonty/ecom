@@ -1,7 +1,7 @@
 
 body {
 	font-family: 'Bangers', cursive;
-	background-color: #000;
+	background-color: #aea799;
 	letter-spacing: .5px;
 	color: #F5F5F5;
 }
@@ -19,6 +19,16 @@ body {
 	background-color: #9932CC;
 	border-top: 1px solid black;
 	text-align: center;
+	height: 80px;
+}
+
+.footer {
+	margin-top: 20px;
+}
+
+.f_t {
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -66,7 +76,7 @@ body {
 	background-image: url("../image/carlin-gill-valley3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 800px;
+	height: 600px;
 }
 
 p {
@@ -78,8 +88,43 @@ h1 {
 	font-size:72px;
 }
 
+.list {
+	font-size: 1.5em;
+}
+
 .content {
 	margin-top:50px;
 	opacity: .8;
 }
 
+.item {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border: 7px solid #696969;
+	opacity: .7;
+}
+
+.item:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.item-container {
+	border-top: 1px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.z {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 26px;
+	padding-left: 10px;
+}
